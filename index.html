@@ -50,6 +50,21 @@
     .socials a img:hover {
       transform: scale(1.2);
     }
+
+    .call-center-agent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.call-center-agent a img {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s;
+}
+
+.call-center-agent a img:hover {
+  transform: scale(1.2);
     .download-btn {
       margin-top: 20px;
       display: inline-block;
@@ -87,10 +102,11 @@
       <img src="linkedin.png" alt="LinkedIn">
     </a>
   </div>
-
-  <a href="contact.vcf" class="download-btn" download target="_blank">
-      <img src="call-center-agent.png" alt="Télécharger Contact">
-  </a>
+  <div class="call-center-agent">
+    <a href="contact.vcf" download target="_blank">
+      <img src="call-center-agent.png" alt="Call Center Agent">
+    </a>
+  </div>
 </div>
 
 </body>
